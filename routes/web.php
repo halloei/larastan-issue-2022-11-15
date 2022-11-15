@@ -14,5 +14,5 @@
 */
 
 $router->get('/', function () use ($router) {
-    return $router->app->version();
+    return \Illuminate\Support\Facades\Date::now();
 });
